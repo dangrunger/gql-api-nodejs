@@ -1,0 +1,23 @@
+{
+  "name": "take_notes_js",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "Daniel Oliveira",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "@graphql-tools/graphql-file-loader": "^7.5.2",
+    "apollo-server": "^3.10.1",
+    "express": "^4.18.1",
+    "graphql": "^16.6.0",
+    "merge-graphql-schemas": "^1.7.8",
+    "pg": "^8.7.3",
+    "sequelize": "^6.21.4",
+    "sequelize-cli": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
